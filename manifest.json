@@ -1,0 +1,29 @@
+{
+  "name": "CAPGOWN AI Agent",
+  "id": "capgown_ai_agent",
+  "author": {
+    "name": "CAPGOWN",
+    "email": "admin@capgown.com"
+  },
+  "version": "2.0.0",
+  "frameworkVersion": "2.0",
+  "location": {
+    "support": {
+      "ticket_sidebar": {
+        "url": "assets/index.html",
+        "size": {
+          "height": "600px"
+        }
+      }
+    }
+  },
+  "parameters": [
+    {
+      "name": "webhook_url",
+      "type": "text",
+      "secure": false,
+      "required": true,
+      "description": "Your deployed backend URL (e.g. https://your-app.railway.app)"
+    }
+  ]
+}
